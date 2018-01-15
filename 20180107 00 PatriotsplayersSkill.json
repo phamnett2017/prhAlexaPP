@@ -1,0 +1,46 @@
+{
+  "languageModel": {
+    "intents": [
+      {
+        "name": "AMAZON.CancelIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.HelpIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.RepeatIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.StopIntent",
+        "samples": []
+      },
+      {
+        "name": "PlayerIntent",
+        "samples": [
+          "jersey number {Item}",
+          "jersey {Item}",
+          "who is jersey {Item}",
+          "pats number {Item}",
+          "number {Item}",
+          "player number {Item}",
+          "player {Item}",
+          "who is player {Item}",
+          "who is {Item}",
+          "whos {Item}",
+          "shirt number {Item}",
+          "man number {Item}"
+        ],
+        "slots": [
+          {
+            "name": "Item",
+            "type": "AMAZON.NUMBER"
+          }
+        ]
+      }
+    ],
+    "invocationName": "patriots players"
+  }
+}
